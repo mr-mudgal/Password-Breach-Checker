@@ -10,6 +10,8 @@ let result = document.getElementById('result')
 let github = document.getElementById('git-link')
 let usage = document.getElementById('usage')
 let about = document.getElementById('about')
+let credit = document.getElementById('credit')
+let pbc = document.getElementById('pbc-full')
 
 poster.style.height = `${cH-1}px`
 poster_content.style.height = `${cH - 100}px`
@@ -20,6 +22,7 @@ welcome.style.top = `${parseInt(poster_content.style.height)*0.05}px`
 check_btn.style.top = `${parseInt(poster_content.style.height)*0.17}px`
 contact.style.fontSize = `${parseInt(poster_content.style.height)*0.05}px`
 result.style.fontSize = `${parseInt(contact.style.fontSize)}px`
+credit.style.fontSize = result.style.fontSize
 
 if (cH > cW) {
     input.style.top = `${parseInt(poster_content.style.height)*0.1}px`
@@ -113,4 +116,10 @@ about.addEventListener('mouseout', () => {
     about.style.paddingInline = 'revert'
     about.style.marginInline = 'revert'
     result.style.filter = 'revert'
+})
+pbc.addEventListener('mouseover', () => {
+    document.getElementById('full-form').style.display = 'revert'
+})
+pbc.addEventListener('mouseout', () => {
+    document.getElementById('full-form').style.display = 'none'
 })
