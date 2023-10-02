@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home | PBC</title>
+    <link rel="stylesheet" href="static/stylesheets/styler.css">
+    <script src="static/javascripts/main.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="poster">
+        <div id="poster_content">
+            <h1 id="welcome">WELCOME</h1>
+            <form action="" method="POST" id="pswd_form">{% csrf_token %}
+                <label> 
+                    <input type="password" name="pswd" id="pswd">
+                </label>
+            </form>
+            <img src="../static/images/database.png" alt="scanning_database_icon" id="check_pass_btn" ondragstart="return false"/>
+            <ul id="contact">
+                <li id="usage"><i class="ri-creative-commons-nd-fill"></i>
+                    Usage<div id="usage-text"><ul>
+                        <li>This is the usage steps</li>
+                        <li>This is the usage steps</li>
+                        <li>This is the usage steps</li>
+                        <li>This is the usage steps</li>
+                        <li>This is the usage steps</li>
+                        <li>This is the usage steps</li>
+                        <li>This is the usage steps</li>
+                        <li>This is the usage steps</li>
+                        <li>This is the usage steps</li>
+                        <li>This is the usage steps</li>
+                        <li>This is the usage steps</li>
+                        <li>This is the usage steps</li>
+                        <li>This is the usage steps</li>
+                        <li>This is the usage steps</li>
+                    </ul></div></li>
+                <li id="git-link"><i class="ri-github-fill"></i> GitHub</li>
+                <li id="about"><i class="ri-information-fill"></i>
+                    About<div id="about-text"><ul>
+                        <li>This is the about content</li>
+                        <li>This is the about content</li>
+                        <li>This is the about content</li>
+                        <li>This is the about content</li>
+                        <li>This is the about content</li>
+                        <li>This is the about content</li>
+                        <li>This is the about content</li>
+                        <li>This is the about content</li>
+                        <li>This is the about content</li>
+                        <li>This is the about content</li>
+                        <li>This is the about content</li>
+                        <li>This is the about content</li>
+                        <li>This is the about content</li>
+                        <li>This is the about content</li>
+                        <li>This is the about content</li>
+                        <li>This is the about content</li>
+                        <li>This is tdhe about content</li>
+                        <li>This is the about content</li>
+                        <li>This is the about content</li>
+                        <li>This is the about content</li>
+                    </ul></div></li>
+            </ul>
+            <p id="result">{{result}}</p>
+        </div>
+    </div>
+</body>
+</html>
