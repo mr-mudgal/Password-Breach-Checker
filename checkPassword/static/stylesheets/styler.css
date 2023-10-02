@@ -21,6 +21,22 @@ h1 {
 #poster {
     background: url('../images/pass_poster.jpg');
     background-size: cover;
+    & #credit {
+        position: absolute;
+        bottom: -30px;
+        text-shadow: 0 0 5px white;
+        right: 4.5%;
+        backdrop-filter: blur(2px);
+        & img {
+            backdrop-filter: blur(3px);
+        }
+    }
+    & #full-form {
+        display: none;
+        position: relative;
+        right: -50%;
+        bottom: -3%
+    }
 }
 
 #poster_content {
@@ -30,6 +46,7 @@ h1 {
     position: relative;
     border: 0;
     border-radius: 40px;
+    box-shadow: 0 0 40px -5px;
 }
 
 #pswd {
