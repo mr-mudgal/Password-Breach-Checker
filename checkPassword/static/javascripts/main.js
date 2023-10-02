@@ -80,7 +80,7 @@ github.addEventListener('mouseout', () => {
     github.style.marginInline = 'revert'
 })
 github.addEventListener('click', () => {
-    open('https://github.com/mr-mudgal', '_self')
+    open('https://github.com/mr-mudgal/Password-Breach-Checker', '_self')
 })
 usage.style.cursor = 'Crosshair'
 usage.addEventListener('mouseover', () => {
