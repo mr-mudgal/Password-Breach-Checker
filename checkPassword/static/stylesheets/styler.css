@@ -19,7 +19,7 @@ h1 {
 }
 
 #poster {
-    background: url('https://cdn.jsdelivr.net/gh/mr-mudgal/Password-Breach-Checker/checkPassword/static/images/pass_poster.jpg');
+    background: url('https://cdn.jsdelivr.net/gh/mr-mudgal/Password-Breach-Checker@latest/checkPassword/static/images/pass_poster.jpg');
     background-size: cover;
     & #credit {
         position: absolute;
