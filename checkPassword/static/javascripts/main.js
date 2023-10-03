@@ -68,7 +68,7 @@ document.getElementById('check_pass_btn').addEventListener('click', () => {
     }
 })
 document.getElementById('welcome').addEventListener('click', () => {
-    open('http://0.0.0.0:2422/', '_self')
+    open('https://44.219.239.9:1024/', '_self')
 })
 github.style.cursor = 'Pointer'
 github.addEventListener('mouseover', () => {
