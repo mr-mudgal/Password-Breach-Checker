@@ -77,7 +77,7 @@ h1 {
 }
 
 ul {
-    list-style: disc;
+    list-style: none;
     text-align: justify;
     & hr {
         width: 60%;
