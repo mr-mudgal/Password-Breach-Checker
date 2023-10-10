@@ -1,10 +1,11 @@
 # Password-Breach-Checker
 Website URL: [PBC](https://bit.ly/pbc_RM)  
 
-This is a simple one-page website, created by Python Django Framework.  
+This is a simple one-page website, created by Python **Django** Framework.  
 It is used in order to tell the user whether their passwords have been leaked in a data breach or not.  
 It uses the [haveibeenpwned](https://haveibeenpwned.com) API, to check for the results.  
-We also use mkcert in order to run the project on ```https```. Although, since it is privately signed key, it still shows privacy issue, when opened. You can safely ignore the warning and choose to proceed and open the site.  
+We also use **mkcert** in order to run the project on ```https```. Although, since it is privately signed key, it still shows privacy issue, when opened. You can safely ignore the warning and choose to proceed and open the site.  
+The project is hosted on an **AWS (Amazon Web Service) EC2 instance**, and used _Elastic IP_ to allocate a fix IP to the instance.  
 WE **DO NOT COLLECT/STORE** ANY OF YOU DATA, AND RESPECT YOUR PRIVACY.
 ***
 ### Usage
