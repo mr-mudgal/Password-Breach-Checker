@@ -1,5 +1,5 @@
 # Password-Breach-Checker
-Website URL: [PBC](https://bit.ly/pbc_RM)  
+Website URL: _I have stopped hosting the website, as AWS started charges, due to overusage of run-time beyond the free-trial allowed time._
 
 This is a simple one-page website, created by Python **Django** Framework.  
 It is used in order to tell the user whether their passwords have been leaked in a data breach or not.  
